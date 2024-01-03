@@ -23,3 +23,6 @@ npm install -D tailwindcss
 npm install @reduxjs/toolkit react-redux react-router-dom react-icons react-chartjs2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
 
 '''
+
+
+### [optional] configure eslint plugin for sort the import library in react accordingly ###
