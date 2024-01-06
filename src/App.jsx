@@ -1,15 +1,18 @@
 // imports 
-import { Routes } from "react-router-dom";
+import { Routes } from "react-router-dom"
 
+import Footer from "./Components/Footer"
 
 
 function App() {
 
   return (
     <>
-     <Routes>
+     {/* <Routes>
         
-     </Routes>
+     </Routes> */}
+
+     <Footer></Footer>
     </>
   )
 }
