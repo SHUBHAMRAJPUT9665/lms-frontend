@@ -1,17 +1,20 @@
-import React from 'react'
+import React from "react";
 // libray imports
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import ReactDOM from "react-dom/client";
+import { Toaster } from "react-hot-toast";
+import { Provider } from "react-redux";
+import { BrowserRouter } from "react-router-dom";
 
-import App from './App.jsx'
+import App from "./App.jsx";
+import store from './Redux/store'
 
-
-
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-          <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-)
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+        <Toaster></Toaster>
+      </BrowserRouter>
+    </Provider>
+  </React.StrictMode>
+);
