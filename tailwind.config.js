@@ -8,5 +8,8 @@ export default {
     extend: {},
   },
   plugins: [],
+  // eslint-disable-next-line no-undef, no-dupe-keys
+  // plugins: [require("daisyui")],
 }
+
 

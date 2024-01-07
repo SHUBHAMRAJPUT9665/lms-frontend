@@ -1,4 +1,3 @@
-import React from 'react';
 import {BsFacebook,BsInstagram,BsLinkedin, BsTwitter} from 'react-icons/bs';
 
 function Footer() {
@@ -34,6 +33,4 @@ function Footer() {
         </>
     )
 }
-
-
 export default Footer;
